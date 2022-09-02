@@ -9,10 +9,8 @@ function Home() {
 //    console.log(stories)
   return (
     <div>
-        <h2>Stories</h2>
-        {/* <Story /> */}
+        <h2>Stories - <Link to="/story" >Read All stories at once</Link></h2>
         {stories.map((story) => (
-            // console.log(story.id + 1)
             <li key={story.id}><Link to={`/story/${(story.id)}`} >{story.title}</Link></li>
         ))}
         

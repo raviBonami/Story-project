@@ -1,7 +1,7 @@
 
 import React from 'react'
 import {getStories} from './SrcStory'
-import {useNavigate} from "react-router-dom"
+import {useNavigate, Link} from "react-router-dom"
 
 
 function Story() {
